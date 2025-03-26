@@ -60,4 +60,3 @@ const mockStreams = [
     description: "Digital painting and illustration techniques",
   },
 ];
-export { StreamViewer };

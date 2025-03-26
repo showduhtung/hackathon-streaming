@@ -1,7 +1,7 @@
 "use client";
 
-import { ThemeSwitch } from "~/components/theme/theme-switch";
 import { StreamViewer } from "./components/stream-viewer";
+import { ThemeSwitch } from "./components/theme-switch";
 
 function Header() {
   return (

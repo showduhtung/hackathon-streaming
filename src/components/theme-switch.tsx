@@ -1,8 +1,8 @@
 "use client";
 
-import { Button } from "~/components/ui/button";
-import { useTheme } from "./theme-provider";
 import { MoonIcon, SunIcon } from "lucide-react";
+import { Button } from "~/components/ui/button";
+import { useTheme } from "~/providers/theme-provider";
 
 function ThemeSwitch() {
   const { theme, setTheme } = useTheme();
